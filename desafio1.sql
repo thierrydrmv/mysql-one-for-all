@@ -69,7 +69,7 @@ CREATE TABLE
     ) engine = InnoDB;
 
 INSERT INTO plano
-VALUES (1, 'gratuito', 0), (2, 'familiar', 7.99), (3, 'universitário', 5.99), (4, 'pessoal', 6.99);
+VALUES (1, 'gratuito', 0.00), (2, 'familiar', 7.99), (3, 'universitário', 5.99), (4, 'pessoal', 6.99);
 
 INSERT INTO usuario
 VALUES (
