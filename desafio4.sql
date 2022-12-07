@@ -1,7 +1,7 @@
 SELECT
     u.nome usuario,
     IF(
-        SUM(IF(YEAR(d.date) >= '2021', 1, 0)) = 1,
+        SUM(IF(YEAR(d.date) >= '2021', 1, 0)) > 0,
         'Usuário ativo',
         'Usuário inativo'
     ) status_usuario
